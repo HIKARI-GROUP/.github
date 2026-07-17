@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIKARI GROUP — Engineering</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #0a0f1e; color: #f5f5f5; min-height: 100vh; }
+    .hero { text-align: center; padding: 80px 20px; background: linear-gradient(180deg, #0a0f1e 0%, #121826 100%); }
+    .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; color: rgba(255,255,255,0.6); max-width: 600px; margin: 0 auto 2rem; }
+    .badges { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 2rem; }
+    .badge { padding: 6px 14px; border-radius: 20px; font-size: 0.8rem; border: 1px solid rgba(255,255,255,0.1); }
+    .grid { max-width: 1200px; margin: 0 auto; padding: 40px 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+    .card { background: #121826; border: 1px solid rgba(255,255,255,0.06); border-radius: 16px; padding: 24px; transition: all 0.2s; }
+    .card:hover { border-color: rgba(245,158,11,0.3); transform: translateY(-2px); }
+    .card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .card p { font-size: 0.9rem; color: rgba(255,255,255,0.5); margin-bottom: 1rem; }
+    .card a { color: #f59e0b; text-decoration: none; font-size: 0.85rem; }
+    .card a:hover { text-decoration: underline; }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; margin-right: 4px; background: rgba(245,158,11,0.1); color: #f59e0b; }
+    .footer { text-align: center; padding: 40px 20px; color: rgba(255,255,255,0.3); font-size: 0.85rem; }
+    .nav { display: flex; gap: 20px; justify-content: center; padding: 20px; }
+    .nav a { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.9rem; }
+    .nav a:hover { color: #f59e0b; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>🏔️ HIKARI GROUP</h1>
+    <p>PropTech · Immobilier · Hospitalité · Intelligence Artificielle</p>
+    <div class="badges">
+      <span class="badge">React</span><span class="badge">TypeScript</span><span class="badge">Deno</span>
+      <span class="badge">AI/LLM</span><span class="badge">Open Source</span><span class="badge">PropTech</span>
+    </div>
+  </div>
+  <div class="nav">
+    <a href="https://github.com/HIKARI-GROUP">GitHub</a>
+    <a href="https://github.com/HIKARI-GROUP/.github/discussions">Discussions</a>
+    <a href="https://hikari-group.com">Website</a>
+    <a href="https://www.linkedin.com/company/hikari-group">LinkedIn</a>
+    <a href="https://github.com/HIKARI-GROUP/hikari-engineering-handbook/blob/main/CAREERS.md">Careers</a>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>🎨 Design System</h3><p>Système de design React + Tailwind CSS pour applications PropTech.</p><div><span class="tag">React</span><span class="tag">Tailwind</span><span class="tag">TypeScript</span></div><br><a href="https://github.com/HIKARI-GROUP/hikari-design-system">View Repository →</a></div>
+    <div class="card"><h3>🚀 PropTech Starter</h3><p>Template SaaS PropTech — React + Base44 + Stripe + Auth.</p><div><span class="tag">React</span><span class="tag">Vite</span><span class="tag">Stripe</span></div><br><a href="https://github.com/HIKARI-GROUP/hikari-proptech-starter">View Repository →</a></div>
+    <div class="card"><h3>📊 Real Estate Utils</h3><p>Bibliothèque de calculs immobiliers — rentabilité, DPE, amortissement.</p><div><span class="tag">TypeScript</span><span class="tag">Vitest</span></div><br><a href="https://github.com/HIKARI-GROUP/hikari-real-estate-utils">View Repository →</a></div>
+    <div class="card"><h3>📦 Open Data</h3><p>Exemples d'utilisation de données immobilières publiques (DVF, DPE).</p><div><span class="tag">JavaScript</span><span class="tag">Leaflet</span></div><br><a href="https://github.com/HIKARI-GROUP/hikari-open-data-examples">View Repository →</a></div>
+    <div class="card"><h3>📚 Engineering Handbook</h3><p>Guide d'ingénierie — standards, architecture, bonnes pratiques.</p><div><span class="tag">Markdown</span><span class="tag">Mermaid</span></div><br><a href="https://github.com/HIKARI-GROUP/hikari-engineering-handbook">View Repository →</a></div>
+    <div class="card"><h3>🤖 AI & Agents</h3><p>Prompt engineering, LLM best practices, agent architecture.</p><div><span class="tag">LLM</span><span class="tag">AI</span></div><br><a href="https://github.com/HIKARI-GROUP/hikari-engineering-handbook/tree/main/ai">View AI Docs →</a></div>
+  </div>
+  <div class="footer"><p>© 2026 HIKARI GROUP. Built with ❤️ in Lyon, France.</p><p>Open Source · MIT & CC BY-SA 4.0</p></div>
+</body>
+</html>

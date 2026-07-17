@@ -1,89 +1,80 @@
 <div align="center">
 
-# ðï¸ HIKARI GROUP
+# HIKARI GROUP
 
-**PropTech Â· Immobilier Â· HospitalitÃ© Â· Intelligence Artificielle**
+**Building AI-powered real estate infrastructure**
 
-[![Website](https://img.shields.io/badge/Website-hikari--group.com-blue)](https://hikari-group.tech)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-HIKARI_GROUP-blue?logo=linkedin)](https://www.linkedin.com/company/hikari-group)
-[![Email](https://img.shields.io/badge/Email-contact@hikari--group.com-red)](mailto:contact@hikari-group.tech)
-[![GitHub Stars](https://img.shields.io/github/stars/HIKARI-GROUP?style=social)](https://github.com/HIKARI-GROUP)
+*PropTech · Real Estate · Hospitality · Artificial Intelligence*
+
+[Website](https://hikari-group.tech) · [LinkedIn](https://www.linkedin.com/company/hikari-group) · [Email](mailto:contact@hikari-group.tech)
 
 </div>
 
 ---
 
-## ð¯ Mission
+## About
 
-Construire l'Ã©cosystÃ¨me de rÃ©fÃ©rence pour l'investissement immobilier intelligent, propulsÃ© par l'IA et les donnÃ©es ouvertes.
+HIKARI GROUP is a PropTech organization building AI-powered products for real estate investment, hospitality, and property technology. We focus on open data, AI agents, and automation to help investors and professionals make better decisions.
 
-## ðï¸ L'ÃcosystÃ¨me HIKARI
+We're a small team — currently founder-led — and we're building in public.
 
-```mermaid
-graph TD
-    subgraph "HIKARI GROUP"
-        GROUP[ðï¸ HIKARI GROUP<br/>Holding & StratÃ©gie]
-        CAPITAL[ð° HIKARI CAPITAL<br/>Investissement immobilier]
-        STAYS[ð¨ HIKARI STAYS<br/>HÃ´tellerie & Airbnb]
-        TECH[ð» HIKARI TECHNOLOGY<br/>SaaS & IA]
-    end
-    GROUP --> CAPITAL
-    GROUP --> STAYS
-    GROUP --> TECH
-    TECH --> SAAS[ð SaaS d'analyse<br/>immobiliÃ¨re]
-    TECH --> AI[ð¤ Agents IA]
-    TECH --> DATA[ð¦ Open Data]
-```
+## What We Build
 
-## ð¦ DÃ©pÃ´ts Publics
-
-| Repository | Description | Tech |
-|---|---|---|
-| [hikari-design-system](https://github.com/HIKARI-GROUP/hikari-design-system) | SystÃ¨me de design React + Tailwind | React, TypeScript |
-| [hikari-proptech-starter](https://github.com/HIKARI-GROUP/hikari-proptech-starter) | Template SaaS PropTech | React, Vite, Stripe |
-| [hikari-real-estate-utils](https://github.com/HIKARI-GROUP/hikari-real-estate-utils) | Calculs immobiliers en JS | TypeScript |
-| [hikari-open-data-examples](https://github.com/HIKARI-GROUP/hikari-open-data-examples) | DonnÃ©es immobiliÃ¨res publiques | JavaScript, Leaflet |
-| [hikari-engineering-handbook](https://github.com/HIKARI-GROUP/hikari-engineering-handbook) | Guide d'ingÃ©nierie | Markdown, Mermaid |
-
-## ð ï¸ Tech Stack
-
-| Layer | Technology |
+| Entity | Focus |
 |---|---|
-| **Frontend** | React 18, Vite, Tailwind CSS, shadcn/ui |
-| **Backend** | Deno Deploy, Base44 BaaS |
-| **Database** | Base44 Entities (JSON Schema) |
-| **AI/LLM** | Multi-model (GPT, Claude, Gemini) |
-| **Payments** | Stripe |
-| **Maps** | Leaflet, Google Maps |
-| **Hosting** | Base44, Deno Deploy |
-| **CI/CD** | GitHub Actions |
+| HIKARI GROUP | Parent organization — PropTech, real estate, hospitality |
+| HIKARI STAYS | Short-term rental and hospitality technology |
+| HIKARI CAPITAL | Real estate investment and financing |
+| HIKARI TECHNOLOGY | AI agents, automation, open data platforms |
 
-## ð¤ Contribuer
+## Open-Source Projects
 
-Nous accueillons les contributions ! Chaque dÃ©pÃ´t a son propre [CONTRIBUTING.md](https://github.com/HIKARI-GROUP/.github/blob/main/CONTRIBUTING.md).
+| Project | Description | Status |
+|---|---|---|
+| [hikari-proptech-starter](https://github.com/HIKARI-GROUP/hikari-proptech-starter) | SaaS starter template for PropTech | Experimental |
+| [hikari-real-estate-utils](https://github.com/HIKARI-GROUP/hikari-real-estate-utils) | Real estate calculation library (yield, mortgage, DPE) | Experimental |
+| [hikari-design-system](https://github.com/HIKARI-GROUP/hikari-design-system) | React + Tailwind design system for PropTech | Concept |
+| [hikari-open-data-examples](https://github.com/HIKARI-GROUP/hikari-open-data-examples) | French open data examples (DVF, DPE) | Experimental |
+| [hikari-engineering-handbook](https://github.com/HIKARI-GROUP/hikari-engineering-handbook) | Engineering handbook and best practices | Documentation |
 
-- ð [Good First Issues](https://github.com/search?q=org:HIKARI-GROUP+label:%22good+first+issue%22+state:open&type=issues)
-- ð [Help Wanted](https://github.com/search?q=org:HIKARI-GROUP+label:%22help+wanted%22+state:open&type=issues)
-- ð¬ [Discussions](https://github.com/HIKARI-GROUP/.github/discussions)
+## How to Contribute
 
-## ð¼ CarriÃ¨res
+We welcome contributions from developers of all levels:
 
-Voir [CAREERS.md](https://github.com/HIKARI-GROUP/.github/blob/main/CAREERS.md).
+1. **Find an issue** — browse our [good first issues](https://github.com/search?q=org%3AHIKARI-GROUP+label%3A%22good+first+issue%22+state%3Aopen&type=issues)
+2. **Read the guide** — check our [contributing guidelines](https://github.com/HIKARI-GROUP/.github/blob/main/CONTRIBUTING.md)
+3. **Start a discussion** — ask questions in [GitHub Discussions](https://github.com/HIKARI-GROUP/.github/discussions)
+4. **Open a PR** — fork a repo, create a branch, submit a pull request
 
-## ð Links
+## Current Opportunities
 
-- ð **Website:** [hikari-group.tech](https://hikari-group.tech)
-- ð¼ **LinkedIn:** [HIKARI GROUP](https://www.linkedin.com/company/hikari-group)
-- ð§ **Email:** contact@hikari-group.tech
-- ð **Issues:** [Report a bug](https://github.com/HIKARI-GROUP/.github/issues)
-- ð¬ **Discussions:** [Join the conversation](https://github.com/HIKARI-GROUP/.github/discussions)
+We're open to connecting with:
 
-## ð License
+- Full-stack developers (React, TypeScript)
+- AI engineers (LLM integration, agents)
+- Data engineers (open data, real estate data)
+- Students and interns looking for real-world experience
+- Open-source contributors
 
-Chaque dÃ©pÃ´t a sa propre licence (MIT ou CC BY-SA 4.0). Voir le fichier LICENSE de chaque dÃ©pÃ´t.
+No fake job offers — just real projects and real code. [Start a discussion](https://github.com/HIKARI-GROUP/.github/discussions) or explore our [open issues](https://github.com/search?q=org%3AHIKARI-GROUP+state%3Aopen&type=issues).
+
+## Engineering Principles
+
+- **Ship real code** — no vaporware, no fictitious demos
+- **Open by default** — share what we learn
+- **Data-driven** — decisions backed by open data
+- **Security first** — no secrets, no proprietary data in public repos
+- **Respectful community** — see our [Code of Conduct](https://github.com/HIKARI-GROUP/.github/blob/main/CODE_OF_CONDUCT.md)
+
+## Contact
+
+- Website: [hikari-group.tech](https://hikari-group.tech)
+- LinkedIn: [HIKARI GROUP](https://www.linkedin.com/company/hikari-group)
+- Email: contact@hikari-group.tech
+- Security: security@hikari-group.tech
 
 ---
 
 <div align="center">
-  <sub>Â© 2026 HIKARI GROUP. Built with â¤ï¸ in Lyon, France.</sub>
+<sub>© 2026 HIKARI GROUP · Open-source under MIT and CC BY-SA 4.0</sub>
 </div>

@@ -7,7 +7,7 @@
 | [GitHub Discussions](https://github.com/HIKARI-GROUP/.github/discussions) | Questions, ideas, general discussion |
 | [GitHub Issues](https://github.com/HIKARI-GROUP/.github/issues) | Bug reports, feature requests |
 | [LinkedIn](https://www.linkedin.com/company/hikari-group) | Professional inquiries |
-| [Email](mailto:contact@hikari-group.com) | Direct contact |
+| [Email](mailto:contact@hikari-group.tech) | Direct contact |
 
 ## Before Asking
 
